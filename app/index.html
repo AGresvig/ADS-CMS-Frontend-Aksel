@@ -14,7 +14,7 @@
 	<!-- Vendor styles goes here -->
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
 	<!-- End vendor styles -->
-	
+
 	<!-- build:css(.tmp) styles/main.css -->
 	<link rel="stylesheet" href="styles/main.css">
 	<!-- endbuild -->
@@ -30,7 +30,30 @@
     <![endif]-->
 
     <!-- Add your global site header here -->
-	
+	<div class="navbar navbar-default navbar-static-top">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".header-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+
+        <a class="navbar-brand" href="#">ADS CMS</a>
+      </div>
+
+    <div class="collapse navbar-collapse header-collapse">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="#/mediaplayer">Mediaplayers</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
 	<div class="container">
 		<!-- Add your application content here -->
 		<div id=appContainer" ng-view></div>
@@ -46,7 +69,7 @@
        ga('create', 'UA-XXXXX-X');
        ga('send', 'pageview');
     </script>
-	
+
 	<!-- bower-dependencies will be set automatically here when "grunt bower-install" is run: -->
 	<!-- bower:js -->
 	<script src="bower_components/jquery/jquery.js"></script>
