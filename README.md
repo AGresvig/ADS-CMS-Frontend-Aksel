@@ -2,7 +2,9 @@ acn-angular-workshop-seed
 =========================
 
 #Welcome!
-This is the seed project for Accenture Angular/Frontend Workshop.
+This is my implementation of the "ADS CMS" frontend created during Accenture's Angular/Frontend Workshop.
+
+Based on https://github.com/Accenture-ADI-Norge/acn-angular-workshop-seed
 
 ##Requirements
 * [NodeJS](http://nodejs.org/)
@@ -13,5 +15,3 @@ This is the seed project for Accenture Angular/Frontend Workshop.
 1. `npm install`
 2. `bower install` 
 3. `grunt server`
-
-*Boom!* Frontend.
