@@ -1,6 +1,6 @@
 'use strict';
 
-var adsCmsFrontendApp = angular.module('adsCmsFrontendApp',
+var accAngularWorkshopSeedApp = angular.module('accAngularWorkshopSeedApp',
   [
   'ngRoute',
   'ngResource',

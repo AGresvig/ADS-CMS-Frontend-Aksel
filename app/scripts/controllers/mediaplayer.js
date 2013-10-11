@@ -1,6 +1,5 @@
 'use strict';
-
-angular.module('accAngularWorkshopSeedAppApp')
+accAngularWorkshopSeedApp
   .controller('MediaplayerCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
